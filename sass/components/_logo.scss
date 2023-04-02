@@ -1,17 +1,26 @@
-/* logo */
 .logo {
   display: flex;
   color: var(--acent-color);
   font-family: "Raleway";
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
   text-decoration: none;
   letter-spacing: 0.03em;
+  font-size: 24px;
+  line-height: 1.16;
+  @media screen and (min-width: 768px){
+    font-size: 26px;
+    line-height: 1.19;
+  }
+  @media screen and (min-width: 1200px){
+    font-size: 26px;
+    line-height: 1.19;
+  }
 
   .header__container & {
-    padding-top: 24px;
-    padding-bottom: 25px;
+     padding: 16px 0;
+    @media screen and (min-width: 768px){
+      padding: 26px 0;
+    }
   }
 }
 
