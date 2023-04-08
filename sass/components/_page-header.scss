@@ -9,7 +9,7 @@
 }
 
 .button-close  .button-close__icon__close{
-    display: none;
+    display: block;
 }
 
 .button-close.is-open  .button-close__icon__close{
@@ -17,7 +17,7 @@
 }
 
 .button-close.is-open  .button-close__icon__menu{
-    display: none;
+    display: block;
 }
 
 
